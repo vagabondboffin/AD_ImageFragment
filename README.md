@@ -46,7 +46,7 @@ When there is no anomaly detector, the overall accuracy of the classifier among 
 
 Reported results show that depending on the anomaly detection method, the overall accuracy of the classifier may decrease or increase. But what is significant is the trade-off between the true positive and the true negative rates. This fact points out the importance of choosing the right tool for anomaly detection.
 
-## References
+## C. REFERENCES
 <a id="1">[1]</a> R. Fakouri and M. Teimouri, "Dataset for file fragment classification of image file formats," BMC Research Notes, vol. 12, p. 774, 2019/11/27 2019.
 
 <a id="2">[2]</a> M. Teimouri, Z. Seyedghorban, and F. Amirjani, "Fragments-Expert: A graphical user interface MATLAB toolbox for classification of file fragments," Concurrency and Computation: Practice and Experience, vol. 33, p. e6154, 2021/05/10 2021.
