@@ -29,7 +29,7 @@ I train a stacked autoencoder on the training dataset. Two hidden layers with 20
 
 By calculating the mean and standard deviation for each feature among all training samples and employing upper and lower limits for each feature, we can count how many features of a fragment exceed these boundaries.
 
-** K-means**
+**K-means**
 With the assumption that in a feature space, anomalies are far from normal samples, distance-based approaches can be used for anomaly detection. Clustering methods fall into this category. In a semi-supervised approach, we train clusters on the normal dataset. Then, a threshold can be applied to the distance of a sample from the nearest cluster for determining whether it is a normal sample or not.
 
 ### Result
@@ -55,4 +55,4 @@ Reported results show that depending on the anomaly detection method, the overal
 ## Acknowledgement
 All the functions that end with "_FFC" are built-in functions from [Fragments-Expert](https://github.com/vagabondboffin/Fragments-Expert). 
 
-For a detailed explanation of the methods and datasets used please refer to [[3]](#3). 
+For a detailed explanation of the methods and parameters used in each please refer to [[3]](#3). 
